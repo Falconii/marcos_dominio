@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "npx -p @angular/cli@12 ng serve",
     "build_falconi": "npx -p @angular/cli@12 ng build --base-href https://falconii.github.io/marcos_dominio/ && copy docs\\index.html docs\\404.html ",
+    "build_dominio": "npx -p @angular/cli@12 ng build --base-href https://teste.falconi-iot.com.br/ && copy docs\\index.html docs\\404.html ",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
