@@ -10,11 +10,7 @@ const routes: Routes = [
     path: 'outrapagina',
     loadChildren: () =>
       import('./modules/pagina01/pagina01.module').then((m) => m.Pagina01Module)
-  },
-  {
-    path: '**',
-    redirectTo: 'home',
-  },
+  }
 ];
 
 @NgModule({
